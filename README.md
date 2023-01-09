@@ -5,7 +5,7 @@ This provides Python files for converting video and pictures to ASCII images. Yo
 
 Which turns into
 
-<img src="https://github.com/NetLockJ/ASCII-Images/blob/main/ASCII%20Images/ASCIIPython.png" height=400px>
+<img src="https://github.com/NetLockJ/ASCII-Images/blob/main/ASCIIPython.png" height=400px>
 
 (The given image is taken at 10% resolution)
 
@@ -16,6 +16,8 @@ You can un-comment the `percent = auto_size(img)` method to size it according to
 
 Using `Picture.py` will also provide a `.txt` file in the ASCII Folder. The best way to see the results is to open up your native text editor and decrease the font size to see the results. The picture of the Python logo was done in this way.
 
-`Video.py` works upon running the python file and will print out what the camera sees in ASCII to the terminal. A python window will also open displaying what the camera feed looks like.
+`Camera.py` works upon running the python file and will print out what the camera sees in ASCII to the terminal. A python window will also open displaying what the camera feed looks like.
+
+`Video.py` works in a similar way, but prints out the provided video to the terminal. Place video files in the `Video` folder to allow the program access to them.
 
 To install python, go to [Python's Website](https://www.python.org/downloads/) to install the latest version of python. Then install the latest version of [pip](https://pip.pypa.io/en/stable/installation/) for your platform (should be installed when python gets installed, but if it didn't). To check to ensure it is installed, you can run a `pip --version` and if you don't get an error, it is installed. Then run `pip install opencv-python` to get the latest version of opencv-python. If you have any issues, check around online as there are many guides/tutorials to get and install python tools.
