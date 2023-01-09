@@ -5,7 +5,9 @@ This provides Python files for converting video and pictures to ASCII images. Yo
 
 Which turns into
 
-<img src="https://github.com/NetLockJ/ASCII-Images/blob/main/ASCIIPython.png" height=332px>
+<img src="https://github.com/NetLockJ/ASCII-Images/blob/main/ASCII%20Images/ASCIIPython.png" height=400px>
+
+(The given image is taken at 10% resolution)
 
 
 `Picture.py` allows you to take any image and turn it into ASCII text. All you need to do is provide a file path upon running the program, and it will spit out your ASCII text. The default setting is to try your image at 50% resolution which you can change with the `resolution` variable in `Picture.py`.

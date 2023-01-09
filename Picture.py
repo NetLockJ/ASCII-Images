@@ -42,7 +42,7 @@ try:
     # read image
     img = cv2.imread("Pictures/" + file, cv2.IMREAD_GRAYSCALE)
     # clear screen (based on different systems)
-    percent = 25
+    percent = 100
     #percent = auto_size(img)
     os.system('cls' if os.name=='nt' else 'clear')
     # Manualy set image size if wanted (comment out the auto_size if desired)
